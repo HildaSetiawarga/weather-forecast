@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Application</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+	<link rel="stylesheet" href="style.css">
+	
+
+  
+</head>
+
+<body>
+
+	
+ 	<div class="container">
+		
+		<header class="header">
+			<h2 id="wether">Weather Forecast</h2>
+			<div class="search">
+				<input type="text" id="my-address" placeholder="Enter City Name">
+				<!--<button id="getCords" onClick="codeAddress();">get</button>-->
+				<button id="getCords" onClick="codeAddress();" ><i class="fas fa-search"></i></button>
+			</div>
+			
+		</header>
+
+		<main id="main">
+			<div>
+			  <h2 id="weather-location" class="text-center weather">...</h2>
+			</div>
+			<div>
+			  <h2 id="weather-current" class="text-center weather">..</h2>
+			</div>
+			 <div>
+			  <h3 id="weather-high" class="text-center weather">High: ..</h3>
+			</div>
+			<div>
+			  <h3 id="weather-low" class="text-center weather">Low: ..</h3>
+			  <div>
+				<p id="temp-type" class="text-center temp-type">°F</p></div>
+			</div>
+		</main>
+		
+		<!--<main id="main">
+			
+			<div class="city-icon">
+				<div class="city-icon-holder">
+					<div id="city-name"></div>
+					<img src="" alt="" id="icon">
+				</div>
+			</div>
+			
+			<div class="temperature">
+				<div id="temp"></div>
+			</div>-->
+			
+
+			
+		</main>
+  
+	</div>
+
+	<script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="script.js"></script>
+
+
+
+</body>
+
+</html>
