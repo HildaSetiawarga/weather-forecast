@@ -22,18 +22,18 @@
 			<h2 id="wether">Weather Forecast</h2>
 			<div class="search">
 				<input type="text" id="my-address" placeholder="Enter City Name">
-				<!--<button id="getCords" onClick="codeAddress();">get</button>-->
-				<button id="getCords" onClick="codeAddress();" ><i class="fas fa-search"></i></button>
+				
+				<button id="getCords" onClick="codeAddress();"><i class="fa fa-search"></i></button>
 			</div>
 			
 		</header>
 
 		<main id="main">
 			<div>
-			  <h2 id="weather-location" class="text-center weather">...</h2>
+			  <h2 id="weather-summary" class="text-center weather"></h2>
 			</div>
 			<div>
-			  <h2 id="weather-current" class="text-center weather">..</h2>
+			  <h2 id="weather-current" class="text-center weather"></h2>
 			</div>
 			 <div>
 			  <h3 id="weather-high" class="text-center weather">High: ..</h3>
@@ -41,22 +41,10 @@
 			<div>
 			  <h3 id="weather-low" class="text-center weather">Low: ..</h3>
 			  <div>
-				<p id="temp-type" class="text-center temp-type">°F</p></div>
+				<p id="temp-type" class="text-center">°C</p></div>
 			</div>
 		</main>
-		
-		<!--<main id="main">
-			
-			<div class="city-icon">
-				<div class="city-icon-holder">
-					<div id="city-name"></div>
-					<img src="" alt="" id="icon">
-				</div>
-			</div>
-			
-			<div class="temperature">
-				<div id="temp"></div>
-			</div>-->
+	
 			
 
 			
@@ -65,12 +53,10 @@
 	</div>
 
 	<script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places&key=AIzaSyBMQ_5yxYqZz8BlqTJWHdP5tsOaeIxLWtQ"></script>
+	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-
-  
-
-    <script  src="script.js"></script>
+  <script  src="script.js"></script>
 
 
 

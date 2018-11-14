@@ -2,18 +2,24 @@ body{
     background-color: #eee;
   }
   
+  .ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+  }
+  
   .container{
     width: 500px;
     height: 350px;
     margin:25vh auto;
     border-radius: 25px;
-    background-color: #93bcc5;
-    box-shadow: 0 20px 40px 0px #FFEFE1;
+    background-color: #d0e1f9 ;
+    box-shadow: 1px 20px 40px 0px #FFEFE1;
   }
   
   .header {
     height: 35%;
-    background-color: #A4DAD2;
+    background-color: #8b9dc3;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     text-align: center;
@@ -64,6 +70,7 @@ body{
   }
   
   #getCords {
+    background-color: transparent;
     width: 40px;
     height:40px;
     color: #1E439B;
